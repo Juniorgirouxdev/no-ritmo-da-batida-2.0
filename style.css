@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+/***********
+Reset Global
+************/
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+}
+
+/*****
+header
+******/
+
+header {
+  background-color: #129799;
+  padding: 1rem;
+}
+
+header nav {
+  height: 5vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+header nav a {
+  color: #fff;
+}
+
+.container-principal-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-principal-header h1 {
+  font-size: 64px;
+  font-weight: 700;
+  color: #F7F7F7;
+}
+
+
+/****
+MAIN
+****/
+
+main {
+  background-color:#FFA185;
+}
+
+.container-textos {
+  display: flex;
+  justify-content: center;
+}
+
+.container-textos div{
+  width: 70vw;
+}
+
+.container-textos h2 {
+  text-transform: uppercase;
+  padding: .8rem 0;
+  font-size: 40px;
+  color: #fff;
+}
+
+.container-textos p {
+  font-size: 30px;
+}
+
+.container-imgs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.box-button {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.box-button button{
+  background-color: transparent;
+  color: #000;
+  border: none;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+/****
+Footer
+****/
+
+footer {
+  height: 10vh;
+  background-color: #129799;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.socials-footer img{
+  margin: 0 .5rem;
+  width: 2rem;
+}
+
+footer nav a{
+  color: #fff;
+  margin: 0 .5rem;
+}
